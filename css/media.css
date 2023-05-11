@@ -1,0 +1,169 @@
+@media (min-width: 1440px) {
+  .header-link {
+    font-size: 25px;
+  }
+
+  .header-logo-text {
+    font-size: 38px;
+  }
+
+  .sect-1-texts {
+    font-size: 500px;
+  }
+
+  .sect-1-cap {
+    transform: translate(30%, -60%);
+  }
+
+  .sect-1-cup {
+    /* transform: translate(233%, 0%); */
+  }
+}
+
+@media (max-width: 1200px) {
+  .sect-1-texts {
+    font-size: 300px;
+  }
+
+  .sect-1-cap {
+    width: 300px;
+  }
+
+  .sect-1-cup {
+    width: 400px;
+  }
+}
+
+@media (max-width: 980px) {
+
+  .sect-1-texts {
+    font-size: 260px;
+  }
+
+  .sect-1-packet {
+    width: 20%;
+  }
+
+  .sect-1-cap {
+    width: 250px;
+  }
+
+  .sect-1-cup {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-1 {
+    padding: 20px 0 250px;
+  }
+
+  .header-link {
+    font-size: 18px;
+  }
+
+  .header-logo-text {
+    font-size: 25px;
+  }
+
+  .sect-1-texts {
+    font-size: 210px;
+  }
+
+  .sect-1-cap {
+    width: 210px;
+  }
+
+  .sect-1-cup {
+    width: 260px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .header-link {
+    font-size: 14px;
+  }
+
+  .header-item-left .header-link:first-child {
+    margin-right: 15px;
+  }
+
+  .header-logo-text {
+    font-size: 17px;
+  }
+
+  .sect-1-texts {
+    font-size: 180px;
+  }
+
+  .sect-1-cap {
+    width: 180px;
+  }
+
+  .sect-1-cup {
+    width: 210px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sect-1-text-1-block {
+    margin-left: -30px;
+  }
+
+  .sect-1-text-2-block {
+    margin-left: -46px;
+  }
+
+  .sect-1-texts {
+    font-size: 150px;
+  }
+
+  .sect-1-cap {
+    width: 150px;
+  }
+
+  .sect-1-cup {
+    width: 180px;
+    right: -7%;
+  }
+
+  .sect-1-packet {
+    transform: translate(-20%, 20%);
+  }
+}
+
+@media (max-width: 400px) {
+  .sect-1-texts {
+    font-size: 130px;
+  }
+
+  .sect-1-cap {
+    width: 130px;
+  }
+
+  .sect-1-cup {
+    width: 150px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-item-left .header-link:last-child {
+    display: none;
+  }
+
+  .sect-1-texts {
+    font-size: 110px;
+  }
+
+  .sect-1-cap {
+    width: 110px;
+  }
+
+  .sect-1-cup {
+    width: 120px;
+  }
+}
