@@ -41,7 +41,7 @@ body {
   z-index: 0;
   transform: translate(-50%);
   z-index: 1;
-  animation: headerLogo 3000ms cubic-bezier(0.27, -0.17, 0.87, 1.24) infinite alternate;
+  animation: headerLogo 5000ms cubic-bezier(0.27, -0.17, 0.87, 1.24) infinite alternate;
 }
 
 .header-logo-text {
@@ -154,7 +154,7 @@ body {
 
 .sect-1-down-text {
   position: absolute;
-  animation: downTextRotate 5000ms linear infinite;
+  animation: downTextRotate 50000ms linear infinite;
 }
 
 
@@ -174,6 +174,6 @@ body {
   }
 
   100% {
-    transform: translate(-50%) scale(1.25) ;
+    transform: translate(-50%) scale(1.15) ;
   }
 }
